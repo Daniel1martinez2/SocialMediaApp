@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FacebookClone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="commentLaunch">
+        <p><input type="text" placeholder="usuario" class="user"></p>
+        <p><input type="text" placeholder="comentario" class="comment"></p>
+        <p><button class="sendComment">send</button></p>
+    </div>
+
+    <div class="publicaciones">
+
+    </div>
+    
+</body>
+</html>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
+
+
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyCLjz64kCorNjRDA5DD53ItOGwGds7kMqE",
+    authDomain: "ecosemana11.firebaseapp.com",
+    databaseURL: "https://ecosemana11.firebaseio.com",
+    projectId: "ecosemana11",
+    storageBucket: "ecosemana11.appspot.com",
+    messagingSenderId: "687042299675",
+    appId: "1:687042299675:web:f7e297bc562000189b35be",
+    measurementId: "G-0SB0VR03CY"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+<script src="./components/comentario.js"></script>
+<script src="./js/index.js"></script>
+
